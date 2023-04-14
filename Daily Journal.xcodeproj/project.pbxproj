@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		0019922729A01C55007B5438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019922629A01C55007B5438 /* AppDelegate.swift */; };
 		0019922929A01C55007B5438 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019922829A01C55007B5438 /* SceneDelegate.swift */; };
-		0019922B29A01C55007B5438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019922A29A01C55007B5438 /* ViewController.swift */; };
 		0019922E29A01C55007B5438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0019922C29A01C55007B5438 /* Main.storyboard */; };
 		0019923129A01C55007B5438 /* Daily_Journal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0019922F29A01C55007B5438 /* Daily_Journal.xcdatamodeld */; };
 		0019923329A01C56007B5438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0019923229A01C56007B5438 /* Assets.xcassets */; };
 		0019923629A01C56007B5438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0019923429A01C56007B5438 /* LaunchScreen.storyboard */; };
+		0019924029A02782007B5438 /* EntriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019923F29A02782007B5438 /* EntriesTableViewController.swift */; };
+		0019924229A028BF007B5438 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019924129A028BF007B5438 /* EntryViewController.swift */; };
+		0025120629B2888400E5E004 /* EntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025120529B2888400E5E004 /* EntryTableViewCell.swift */; };
+		00960D3B29A05B5000FBB7F8 /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00960D3929A05B5000FBB7F8 /* Entry+CoreDataClass.swift */; };
+		00960D3C29A05B5000FBB7F8 /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00960D3A29A05B5000FBB7F8 /* Entry+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0019922329A01C55007B5438 /* Daily Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0019922629A01C55007B5438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0019922829A01C55007B5438 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0019922A29A01C55007B5438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0019922D29A01C55007B5438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0019923029A01C55007B5438 /* Daily_Journal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daily_Journal.xcdatamodel; sourceTree = "<group>"; };
 		0019923229A01C56007B5438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0019923529A01C56007B5438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0019923729A01C56007B5438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0019923F29A02782007B5438 /* EntriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesTableViewController.swift; sourceTree = "<group>"; };
+		0019924129A028BF007B5438 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		0025120529B2888400E5E004 /* EntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTableViewCell.swift; sourceTree = "<group>"; };
+		00960D3929A05B5000FBB7F8 /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		00960D3A29A05B5000FBB7F8 /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,12 @@
 			children = (
 				0019922629A01C55007B5438 /* AppDelegate.swift */,
 				0019922829A01C55007B5438 /* SceneDelegate.swift */,
-				0019922A29A01C55007B5438 /* ViewController.swift */,
 				0019922C29A01C55007B5438 /* Main.storyboard */,
+				0025120529B2888400E5E004 /* EntryTableViewCell.swift */,
+				00960D3929A05B5000FBB7F8 /* Entry+CoreDataClass.swift */,
+				00960D3A29A05B5000FBB7F8 /* Entry+CoreDataProperties.swift */,
+				0019923F29A02782007B5438 /* EntriesTableViewController.swift */,
+				0019924129A028BF007B5438 /* EntryViewController.swift */,
 				0019923229A01C56007B5438 /* Assets.xcassets */,
 				0019923429A01C56007B5438 /* LaunchScreen.storyboard */,
 				0019923729A01C56007B5438 /* Info.plist */,
@@ -141,10 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0019922B29A01C55007B5438 /* ViewController.swift in Sources */,
+				0025120629B2888400E5E004 /* EntryTableViewCell.swift in Sources */,
 				0019922729A01C55007B5438 /* AppDelegate.swift in Sources */,
+				00960D3C29A05B5000FBB7F8 /* Entry+CoreDataProperties.swift in Sources */,
 				0019922929A01C55007B5438 /* SceneDelegate.swift in Sources */,
 				0019923129A01C55007B5438 /* Daily_Journal.xcdatamodeld in Sources */,
+				0019924029A02782007B5438 /* EntriesTableViewController.swift in Sources */,
+				00960D3B29A05B5000FBB7F8 /* Entry+CoreDataClass.swift in Sources */,
+				0019924229A028BF007B5438 /* EntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
